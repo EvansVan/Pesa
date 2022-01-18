@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 def scraper():
     try:
         unique = {}
-        url = 'https://pesapal.freshteam.com/jobs/-z8xM8RCgTx7/junior-developer?ft_source=LinkedIn_1000080706&ft_medium=Job%20Boards_1000074720'
+        url = ' '
         #using chrome to access web
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
